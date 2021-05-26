@@ -114,7 +114,8 @@ public class HomeActivity extends BaseActivity implements ProductItemClick , OnC
         });
     }
 
-    private void showCategories() {
+    private void showCategories()
+    {
         GravitySnapRecyclerView categoryRecyclerView = findViewById(R.id.categoryRecyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(HomeActivity.this,
                 LinearLayoutManager.HORIZONTAL, false);
