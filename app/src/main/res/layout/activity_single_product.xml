@@ -93,6 +93,6 @@
             android:visibility="gone"
             android:layout_height="match_parent"
             android:alpha="0.6"
-            android:background="@color/colorPrimaryDark" />
+            android:background="@color/colorSub" />
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
